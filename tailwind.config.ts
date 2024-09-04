@@ -22,6 +22,11 @@ const config: Config = {
       animation: {
         float: 'float 3s ease-in-out infinite',
       },
+      animationDelay: {
+        100: '0.1s',
+        200: '0.2s',
+        300: '0.3s',
+      },
     },
   },
   plugins: [],
