@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { FaHandshake } from "react-icons/fa";
+import { FaDiscord, FaHandshake, FaInstagram } from "react-icons/fa";
 
 export function Navbar() {
 
@@ -20,9 +20,12 @@ export function Navbar() {
                     </div>
                     <div className="flex items-center justify-center gap-6">
                         <section className=" hover:text-gray-700 transition-colors cursor-pointer border px-3 rounded-xl text-green-600 bg-green-50 border-green-600">v1.0.0</section>
-                        <section className=" text-gray-500 hover:text-gray-700 cursor-pointer">Discord</section>
-                        <section className=" text-gray-500 hover:text-gray-700 cursor-pointer">Instagram</section>
-
+                        <section className=" text-gray-500 hover:text-gray-700 cursor-pointer">
+                            <FaDiscord size={22} />
+                        </section>
+                        <section className=" text-gray-500 hover:text-gray-700 cursor-pointer">
+                            <FaInstagram size={22} />
+                        </section>
                     </div>
                 </div>
             </div>
