@@ -9,7 +9,7 @@ export default function Home() {
             The newest and friendly facilitator for your project design
           </div>
           <p className="text-lg font-medium text-gray-400">
-            "Created by the community, for the community."
+            Created by the community, for the community.
           </p>
           <div className="flex gap-2">
             <button className="bg-green-600 hover:bg-opacity-85 transition-colors duration-300 p-3 text-sm text-white font-medium rounded-md">
