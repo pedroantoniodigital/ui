@@ -1,3 +1,5 @@
+import { GoChevronRight } from "react-icons/go";
+
 export default function Introduction() {
 
     return (
@@ -7,15 +9,24 @@ export default function Introduction() {
                 <div className="text-7xl max-w-[60%] text-center font-bold tracking-tight leading-[1.2] my-1 bg-gradient-to-r from-gray-500 to-gray-900 bg-clip-text text-transparent animate-float">
                     The newest and friendly facilitator for your project design
                 </div>
-                <p className="text-lg font-medium text-gray-400">
-                    Created by the community, for the community.
+                <p className="text-lg ">
+                    Created <b>by the community, for the community.</b>
                 </p>
                 <div className="flex gap-2">
-                    <button className="bg-green-600 hover:bg-opacity-85 transition-colors duration-300 p-3 text-sm text-white font-medium rounded-md">
-                        Explore the components
+                    <button className="bg-green-600 min-w-[250px] flex gap-1 items-center justify-center hover:bg-opacity-85 transition-colors duration-300 p-3 text-sm text-white font-medium rounded-3xl px-6 group relative">
+                        <span>Explore the components</span>
+                        <span className="flex items-center">
+                            <GoChevronRight className="group-hover:ml-1 transition-all duration-300" />
+                        </span>
+                        <span className="absolute inset-0 rounded-3xl ring-2 ring-green-400 ring-opacity-50 ring-offset-4 opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none"></span>
                     </button>
-                    <button className="p-3 font-medium hover:bg-gray-100 transition-colors bg-white duration-300 text-sm rounded-md border text-gray-500">
-                        Talk with me
+
+                    <button className="p-3 font-medium min-w-[250px] flex gap-1 items-center justify-center hover:bg-gray-50 transition-colors bg-white duration-300 text-sm rounded-3xl px-6 border text-gray-500 group relative">
+                        <span>Talk with me</span>
+                        <span className="flex items-center">
+                            <GoChevronRight className="group-hover:ml-1 transition-all duration-300" />
+                        </span>
+                        <span className="absolute inset-0 rounded-3xl ring-2  ring-gray-300 ring-opacity-50 ring-offset-4 opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none"></span>
                     </button>
                 </div>
             </section>
